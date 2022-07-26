@@ -1,6 +1,7 @@
 body {
     background-color: black;
     color: white;
+    text-align: center;
 }
 
 h1 {
@@ -9,4 +10,10 @@ h1 {
 
 kbd {
     font-weight: bold;;
+}
+
+fieldset {
+    text-align: center;
+    width: 50%;
+    border: 2px dotted red;
 }

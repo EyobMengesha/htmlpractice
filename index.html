@@ -9,36 +9,55 @@
     <link href="Resources/style.css" rel="stylesheet" >
 </head>
 <body>
-   <h1>Let's try what we've learned from</h1>
+   <h1>Let's try what we've learned from these free online websites</h1>
     <iframe src="https://www.w3schools.com/" title="W3 schools main webstie">W3 Schools</iframe> 
     <P>To save the document, press <kbd>ctrl + s</kbd></P>
     <P>&#128516</P>
-    <form>
-        <h2>Please fiil out this survey</h2>
-        <label for="fname">FIrst name: </label>
-        <input type="text" id="fname" name="fname"> <br>
-        <label for="lname">Last name: </label>
-        <input type="text" id="lname" name="lname"> <br>
-        <p>Choose your favorire</p>
-        <input type="radio" id="html" name="favplayer" value="Salah">
-        <label for="html">Salah</label></imput><br>
-        <input type="radio" id="html" name="favplayer" value="Nunez">
-        <label for="html">Nunez</label></imput><br>
-        <br><br>
-        <p>Who is gonna score more goals?</p>
-        <input type="checkbox" name="scorer" id="scorer" value="Carvalho">
-        <label for="scorer">Carvalho</label><br>
-        <input type="checkbox" name="scorer" id="scorer" value="Diaz">
-        <label for="scorer">Diaz</label><br><br>
-        <input type="submit" value="Submit">
+    <form autocomplete="on">
+        <fieldset>
+            <legend>Pop Quiz</legend>
+            <h2>Please fiil out this survey</h2>
+            <label for="fname">FIrst name: </label>
+            <input type="text" id="fname" name="fname"> <br>
+            <label for="lname">Last name: </label>
+            <input type="text" id="lname" name="lname"> <br>
+            <p>Choose your favorite</p>
+            <input type="radio" id="html" name="favplayer" value="Salah">
+            <label for="html">Salah</label></imput><br>
+            <input type="radio" id="html" name="favplayer" value="Nunez">
+            <label for="html">Nunez</label></imput><br>
+            <br><br>
+            <p>Who is gonna score more goals?</p>
+            <input type="checkbox" name="scorer" id="scorer" value="Carvalho">
+            <label for="scorer">Carvalho</label><br>
+            <input type="checkbox" name="scorer" id="scorer" value="Diaz">
+            <label for="scorer">Diaz</label><br><br>
+            <p>Liverpool FC YNWA</p>
 
-            
+            <label for="CB">Best CB in the world: </label>  
+            <select id="CB" name="centerback" size="2">
+                <option value="konate">Konate</option>
+                <option value="trent">TAA</option>
+                <option value="bigvirj" selected>Van Djik</option>
+                <option value="Matip">Matip</option>
+            </select> <br>
 
+            <label for="MD">Best Midfielder: </label>
+            <input list="MD" name="Mid">
+            <datalist id="MD">
+                <option value="Hendo">
+                <option value="Fabi">
+                <option value="Thiago">
+            </datalist>
+            <button type="button" onclick="You will never walk alone!">ClickMe!</button>
 
-
-        </imput>
+        </fieldset>
+        <input type="button" value="Submit">
+        
     </form>
 
 </body>
 </html>
+
+
 
